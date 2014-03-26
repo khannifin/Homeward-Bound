@@ -5,11 +5,11 @@ background-size: 100%;
 background-repeat: no-repeat;
 back
 width: 100%;
-background-color:#FFFFFF;
+background-color:#e1dcd6;
 }
 
-.bodygrey {
-	background-color: #ecf0f1;
+.bodybeige {
+	background-color: #e1dcd6;
 }
 
 .bodywhite {
@@ -75,6 +75,14 @@ p.subhead {
 	display: inline-block;
 	}
 
+.logo {
+	float: left;
+}
+
+/*// Small screens*/
+	@media only screen and (max-width: 300px) {
+
+	 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 
 
