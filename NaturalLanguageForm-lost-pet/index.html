@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Registration Form</title>
+		<meta name="description" content="Natural Language Form with custom text input and drop-down lists" />
+		<meta name="keywords" content="Natural Language UI, sentence form, text input, contenteditable, html5, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="../css/topbarnavigation.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="nl-blurred">
+		
+		<div class="container demo-1">
+
+			<link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
+<!-- nav -->
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html">Home</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="../mypets.html">My Pets</a></li>
+      <li class="has-dropdown">
+        <a href="#">View Lost Animals</a>
+        <ul class="dropdown">
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="cats.html">Cats</a></li>
+          <li><a href="birds.html">Birds</a></li>
+          <li><a href="other.html">Other</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <!-- Left Nav Section -->
+    <!-- <ul class="left">
+      <li><a href="NaturalLanguageForm/index.html">Register Your Pet!</a></li>
+    </ul> -->
+  </section>
+</nav>
+
+<!-- end nav -->
+
+
+
+
+			<!-- Top Navigation -->
+<!--			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/MorphingDevices/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15139"><span>Back to the Codrops Article</span></a></span>
+			</div>
+-->
+			<header>
+				<h1>Homeward Bound Pet Registration</h1>	
+			</header>
+			<div class="main clearfix">
+			<div class="bkg"></div>
+				<form id="nl-form" class="nl-form">
+					I found a lost pet on  
+					<div class="nl-submit-wrap">
+					<input type="text" value="" placeholder="date" data-subline="Format examples: <em>01/20/2014</em>, <em>01-20-2014</em> or <em>01202014</em>"/>.
+					<select>
+						<option value="1" selected>Gender</option>
+						<option value="2">He</option>
+						<option value="2">She</option>
+					</select> was found in
+					<div class="nl-submit-wrap">
+					<input type="text" value="" placeholder="zip code" data-subline="Format examples: <em>78701</em>"/> area and you can contact me at 
+					<input type="text" value="" placeholder="phone #" data-subline="For example: <em>512-567-0980</em>"/> or at <input type="text" value="" placeholder="email." data-subline="For example: <em>kelly@kelly.com</em>"/>
+										<div class="nl-submit-wrap">
+
+						<button class="nl-submit" type="submit"><a href="../petprofile.html">Register My Pet</button></a>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div><!-- /container -->
+
+		</div>
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+
+			<script src="../js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+	</body>
+</html>
