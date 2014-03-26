@@ -27,7 +27,7 @@ body {
 }
 
 .bkg {
-	background-image:url("file://localhost/Users/cveair/MakerSquare/pet-project/dog-background.jpg");	
+	background-image:url("../images/dog-background.jpg");	
 	background-size: 100%;
 	background-repeat:no-repeat;
 	position: absolute;
